@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>authblue_api_host</key>
+	<string></string>
+	<key>authblue_client_id</key>
+	<string></string>
+	<key>authblue_client_name</key>
+	<string></string>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>D392F000260100000001</string>
+		<string>D3921000310001010408</string>
+		<string>D3921000310001010100</string>
+		<string>D3921000310001010401</string>
+	</array>
+</dict>
+</plist>
