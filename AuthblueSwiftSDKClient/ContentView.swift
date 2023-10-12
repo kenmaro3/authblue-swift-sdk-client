@@ -40,6 +40,8 @@ struct ContentView: View {
             .onAppear {
                 personalEmail = email
                 personalAge = "30"
+                dynamicLinkClientId = Bundle.main.object(forInfoDictionaryKey: "authblue_client_id") as! String
+                dynamicLinkClientName = Bundle.main.object(forInfoDictionaryKey: "authblue_client_name") as! String
 
                 AuthblueSwiftSDK.APIClient.createUserWithAuth(username: name, email: email){ result in
                     switch result{
