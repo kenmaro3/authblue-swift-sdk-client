@@ -16,10 +16,9 @@ struct ContentView: View {
 
     
     @State var name = "kenmaro"
-    @State var email = "miha.ken.19@gmail.com"
+    @State var email = "info@authblue.jp"
     @AppStorage("authblue_api_token") var authblueApiToken: String = ""
     @AppStorage("authblue_personal_email") var personalEmail: String = ""
-    @AppStorage("authblue_personal_age") var personalAge: String = ""
     
     @AppStorage("authblue_dynamic_link_client_id") var dynamicLinkClientId: String = Bundle.main.object(forInfoDictionaryKey: "authblue_client_id") as! String
     @AppStorage("authblue_dynamic_link_client_name") var dynamicLinkClientName: String = Bundle.main.object(forInfoDictionaryKey: "authblue_client_name") as! String
@@ -39,7 +38,6 @@ struct ContentView: View {
             .buttonStyle(PrimaryButtonStyle())
             .onAppear {
                 personalEmail = email
-                personalAge = "30"
                 dynamicLinkClientId = Bundle.main.object(forInfoDictionaryKey: "authblue_client_id") as! String
                 dynamicLinkClientName = Bundle.main.object(forInfoDictionaryKey: "authblue_client_name") as! String
 

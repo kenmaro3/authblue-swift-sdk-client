@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>authblue_api_host</key>
-	<string></string>
+	<string>https://authblue-api-production.azurewebsites.net</string>
 	<key>authblue_client_id</key>
-	<string></string>
+	<string>Wbr6uCMSaK89FjjUdIaEKaZM</string>
 	<key>authblue_client_name</key>
-	<string></string>
+	<string>チュートリアル同意クライアント</string>
 	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
 	<array>
 		<string>D392F000260100000001</string>
